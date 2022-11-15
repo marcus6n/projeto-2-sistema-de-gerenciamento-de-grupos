@@ -18,9 +18,11 @@ Um sistema web que além de facilitar a comunicação entre os alunos componente
 
 ## Funcionalidades
 
-- Cadastro de Alunos e Professores;
-- Criação e Gerenciamento de Grupos;
-- Pesquisa de Grupos.
+- Criar grupos;
+- Troca de mensagens;
+- Envio de arquivos;
+- Limite de integrantes;
+- Encontrar grupos.
 
 
 ## SITE
