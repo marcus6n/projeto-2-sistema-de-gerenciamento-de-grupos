@@ -5,6 +5,8 @@
 
 int main()
 {
+    setlocale(LC_ALL, "Portuguese");
+
     int nav = 0;
     char cad = "";
 
@@ -108,6 +110,8 @@ int main()
         {
             char nome1[50];
             char email1[50];
+            char cpf[50];
+            char instituicao[50];
             char senha1[50];
 
             printf("\n---------------------------------------");
@@ -120,6 +124,14 @@ int main()
 
             printf("E-mail: ");
             scanf("%s", &email1);
+            fflush(stdin);
+            
+            printf("Digite seu CPF: ");
+            scanf("%s", &cpf);
+            fflush(stdin);
+            
+            printf("Digite sua Instituição: ");
+            scanf("%s", &instituicao);
             fflush(stdin);
 
             printf("Senha: ");
@@ -175,6 +187,8 @@ int main()
             char nome2[50];
             char email2[50];
             char senha2[50];
+            char instituicao2[50];
+            int matricula[50];
 
             printf("\n---------------------------------------");
 
@@ -186,6 +200,14 @@ int main()
 
             printf("E-mail: ");
             scanf("%s", &email2);
+            fflush(stdin);
+            
+            printf("Matricula: ");
+            scanf("%s", &email2);
+            fflush(stdin);
+
+            printf("Instituição: ");
+            scanf("%s", &instituicao2);
             fflush(stdin);
 
             printf("Senha: ");
